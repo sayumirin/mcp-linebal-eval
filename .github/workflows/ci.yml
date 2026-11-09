@@ -18,13 +18,31 @@ jobs:
           uv sync --locked
       - name: Unit and integration tests
         run: uv run pytest -q
-      - name: Task generation is reproducible
-        run: |
-          uv run python scripts/make_tasks.py --set ci --out "$RUNNER_TEMP/ci_tasks.jsonl"
-          cmp "$RUNNER_TEMP/ci_tasks.jsonl" tasks/ci.jsonl
       - name: Full pipeline with the scripted fake model (no API key)
         run: |
           uv run python scripts/run_experiment.py configs/ci_smoke.yaml --out "$RUNNER_TEMP/ci/runs.jsonl"
           uv run python scripts/analyze.py --runs "$RUNNER_TEMP/ci/runs.jsonl" --out "$RUNNER_TEMP/ci/report"
       - name: Rebuild the committed result tables from the committed logs
         run: uv run python scripts/analyze.py --out "$RUNNER_TEMP/rebuilt"
+
+  # T3 constraints are drawn from CP-SAT's optimal balance. With one worker and a fixed seed that
+  # balance repeats on one platform, but the Linux and Windows builds can return different optima
+  # of equal value. The task files were generated on Windows, so they are regenerated there.
+  tasks:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install uv and the locked environment
+        run: |
+          pip install uv==0.13.7
+          uv sync --locked
+      - name: Task generation is reproducible
+        run: |
+          uv run python scripts/make_tasks.py --set ci --out regenerated_ci.jsonl
+          cmp regenerated_ci.jsonl tasks/ci.jsonl
