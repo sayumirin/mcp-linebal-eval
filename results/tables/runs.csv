@@ -1,0 +1,197 @@
+run_id,experiment,model,variant,task_id,type,repeat,success,status,end,feasible,optimal,gap_rel,report_consistent,silent_error,asked,verifier_rounds,primary_failure,input_tokens,output_tokens,llm_calls,tool_calls,wall_time_s
+e1|deepseek-v4-flash|A0|lenient|f0|T1-001|r0,e1,deepseek-v4-flash,A0,T1-001,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,770,8466,1,0,66.86
+e1|deepseek-v4-flash|A1|lenient|f0|T1-001|r0,e1,deepseek-v4-flash,A1,T1-001,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,30358,7565,5,9,53.15
+e1|deepseek-v4-flash|A0|lenient|f0|T3-001|r0,e1,deepseek-v4-flash,A0,T3-001,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1062,8917,1,0,65.52
+e1|deepseek-v4-flash|A0|lenient|f0|T1-002|r0,e1,deepseek-v4-flash,A0,T1-002,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1065,32361,1,0,241.49
+e1|deepseek-v4-flash|A2|lenient|f0|T1-001|r0,e1,deepseek-v4-flash,A2,T1-001,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,41314,11297,5,8,76.51
+e1|deepseek-v4-flash|A1|lenient|f0|T1-002|r0,e1,deepseek-v4-flash,A1,T1-002,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,60670,17357,5,9,112.81
+e1|deepseek-v4-flash|A0|lenient|f0|T2-001|r0,e1,deepseek-v4-flash,A0,T2-001,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1330,28300,1,0,207.47
+e1|deepseek-v4-flash|A1|lenient|f0|T3-001|r0,e1,deepseek-v4-flash,A1,T3-001,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,105762,32550,5,8,210.64
+e1|deepseek-v4-flash|A2|lenient|f0|T1-002|r0,e1,deepseek-v4-flash,A2,T1-002,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,39177,10824,5,8,89.44
+e1|deepseek-v4-flash|A0|lenient|f0|T2-002|r0,e1,deepseek-v4-flash,A0,T2-002,T2,0,False,,format_error,False,False,,,False,0,0,output_limit,1059,32768,1,0,261.21
+e1|deepseek-v4-flash|A2|lenient|f0|T3-001|r0,e1,deepseek-v4-flash,A2,T3-001,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,96131,29386,5,8,176.81
+e1|deepseek-v4-flash|A2|lenient|f0|T2-002|r0,e1,deepseek-v4-flash,A2,T2-002,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,82149,24924,5,8,158.17
+e1|deepseek-v4-flash|A1|lenient|f0|T2-001|r0,e1,deepseek-v4-flash,A1,T2-001,T2,0,False,,stopped,False,False,,,False,0,0,output_limit,6066,65601,3,3,389.8
+e1|deepseek-v4-flash|A1|lenient|f0|T2-002|r0,e1,deepseek-v4-flash,A1,T2-002,T2,0,False,,stopped,False,False,,,False,0,0,output_limit,5615,65664,3,3,536.27
+e1|deepseek-v4-flash|A2|lenient|f0|T2-001|r0,e1,deepseek-v4-flash,A2,T2-001,T2,0,False,,stopped,False,False,,,False,0,0,output_limit,108120,96763,6,8,659.59
+e1|deepseek-v4-flash|A0|lenient|f0|T1-001|r1,e1,deepseek-v4-flash,A0,T1-001,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,770,1932,1,0,15.12
+e1|deepseek-v4-flash|A0|lenient|f0|T1-001|r2,e1,deepseek-v4-flash,A0,T1-001,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,770,5477,1,0,42.1
+e1|deepseek-v4-flash|A0|lenient|f0|T1-006|r1,e1,deepseek-v4-flash,A0,T1-006,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1057,7216,1,0,53.44
+e1|deepseek-v4-flash|A0|lenient|f0|T1-005|r0,e1,deepseek-v4-flash,A0,T1-005,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1119,9583,1,0,68.68
+e1|deepseek-v4-flash|A0|lenient|f0|T1-006|r0,e1,deepseek-v4-flash,A0,T1-006,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1057,10159,1,0,76.62
+e1|deepseek-v4-flash|A0|lenient|f0|T1-003|r1,e1,deepseek-v4-flash,A0,T1-003,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1166,11078,1,0,81.65
+e1|deepseek-v4-flash|A0|lenient|f0|T1-002|r2,e1,deepseek-v4-flash,A0,T1-002,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1065,10647,1,0,81.87
+e1|deepseek-v4-flash|A0|lenient|f0|T1-005|r2,e1,deepseek-v4-flash,A0,T1-005,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1119,14237,1,0,106.42
+e1|deepseek-v4-flash|A0|lenient|f0|T1-008|r0,e1,deepseek-v4-flash,A0,T1-008,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1000,4523,1,0,31.31
+e1|deepseek-v4-flash|A0|lenient|f0|T1-008|r2,e1,deepseek-v4-flash,A0,T1-008,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1000,4951,1,0,34.09
+e1|deepseek-v4-flash|A0|lenient|f0|T1-008|r1,e1,deepseek-v4-flash,A0,T1-008,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1000,6302,1,0,44.74
+e1|deepseek-v4-flash|A0|lenient|f0|T1-003|r0,e1,deepseek-v4-flash,A0,T1-003,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1166,17257,1,0,127.93
+e1|deepseek-v4-flash|A0|lenient|f0|T1-005|r1,e1,deepseek-v4-flash,A0,T1-005,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1119,18994,1,0,136.31
+e1|deepseek-v4-flash|A0|lenient|f0|T1-004|r2,e1,deepseek-v4-flash,A0,T1-004,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1502,18922,1,0,138.57
+e1|deepseek-v4-flash|A0|lenient|f0|T1-007|r2,e1,deepseek-v4-flash,A0,T1-007,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1350,10491,1,0,71.14
+e1|deepseek-v4-flash|A0|lenient|f0|T1-006|r2,e1,deepseek-v4-flash,A0,T1-006,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1057,14335,1,0,99.56
+e1|deepseek-v4-flash|A0|lenient|f0|T1-007|r0,e1,deepseek-v4-flash,A0,T1-007,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1350,12008,1,0,84.15
+e1|deepseek-v4-flash|A0|lenient|f0|T1-004|r1,e1,deepseek-v4-flash,A0,T1-004,T1,1,True,complete,submitted,True,False,0.1429,True,False,0,0,ok,1502,21390,1,0,154.02
+e1|deepseek-v4-flash|A0|lenient|f0|T1-010|r0,e1,deepseek-v4-flash,A0,T1-010,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,914,4121,1,0,29.9
+e1|deepseek-v4-flash|A0|lenient|f0|T1-010|r1,e1,deepseek-v4-flash,A0,T1-010,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,914,4739,1,0,33.73
+e1|deepseek-v4-flash|A0|lenient|f0|T1-007|r1,e1,deepseek-v4-flash,A0,T1-007,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1350,13339,1,0,95.17
+e1|deepseek-v4-flash|A0|lenient|f0|T1-010|r2,e1,deepseek-v4-flash,A0,T1-010,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,914,3886,1,0,28.43
+e1|deepseek-v4-flash|A0|lenient|f0|T1-009|r0,e1,deepseek-v4-flash,A0,T1-009,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,940,8177,1,0,62.23
+e1|deepseek-v4-flash|A0|lenient|f0|T1-009|r2,e1,deepseek-v4-flash,A0,T1-009,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,940,7269,1,0,57.15
+e1|deepseek-v4-flash|A0|lenient|f0|T1-012|r2,e1,deepseek-v4-flash,A0,T1-012,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1077,5416,1,0,37.23
+e1|deepseek-v4-flash|A0|lenient|f0|T1-012|r1,e1,deepseek-v4-flash,A0,T1-012,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1077,6143,1,0,42.81
+e1|deepseek-v4-flash|A0|lenient|f0|T1-002|r1,e1,deepseek-v4-flash,A0,T1-002,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1065,25747,1,0,197.44
+e1|deepseek-v4-flash|A0|lenient|f0|T1-004|r0,e1,deepseek-v4-flash,A0,T1-004,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1502,28136,1,0,200.51
+e1|deepseek-v4-flash|A0|lenient|f0|T1-012|r0,e1,deepseek-v4-flash,A0,T1-012,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1077,7244,1,0,51.59
+e1|deepseek-v4-flash|A0|lenient|f0|T1-011|r2,e1,deepseek-v4-flash,A0,T1-011,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,997,8772,1,0,65.91
+e1|deepseek-v4-flash|A0|lenient|f0|T1-011|r0,e1,deepseek-v4-flash,A0,T1-011,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,997,9237,1,0,69.12
+e1|deepseek-v4-flash|A0|lenient|f0|T1-011|r1,e1,deepseek-v4-flash,A0,T1-011,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,997,10953,1,0,79.89
+e1|deepseek-v4-flash|A0|lenient|f0|T2-004|r2,e1,deepseek-v4-flash,A0,T2-004,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,920,4344,1,0,30.76
+e1|deepseek-v4-flash|A0|lenient|f0|T1-009|r1,e1,deepseek-v4-flash,A0,T1-009,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,940,18057,1,0,136.63
+e1|deepseek-v4-flash|A0|lenient|f0|T2-004|r0,e1,deepseek-v4-flash,A0,T2-004,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,920,6638,1,0,48.16
+e1|deepseek-v4-flash|A0|lenient|f0|T2-005|r0,e1,deepseek-v4-flash,A0,T2-005,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,987,5084,1,0,36.37
+e1|deepseek-v4-flash|A0|lenient|f0|T2-004|r1,e1,deepseek-v4-flash,A0,T2-004,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,920,8708,1,0,66.43
+e1|deepseek-v4-flash|A0|lenient|f0|T2-001|r2,e1,deepseek-v4-flash,A0,T2-001,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1330,16547,1,0,118.93
+e1|deepseek-v4-flash|A0|lenient|f0|T2-007|r0,e1,deepseek-v4-flash,A0,T2-007,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,752,3906,1,0,32.65
+e1|deepseek-v4-flash|A0|lenient|f0|T2-006|r0,e1,deepseek-v4-flash,A0,T2-006,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,763,6714,1,0,48.64
+e1|deepseek-v4-flash|A0|lenient|f0|T2-005|r2,e1,deepseek-v4-flash,A0,T2-005,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,987,7735,1,0,52.84
+e1|deepseek-v4-flash|A0|lenient|f0|T2-006|r1,e1,deepseek-v4-flash,A0,T2-006,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,763,5760,1,0,44.86
+e1|deepseek-v4-flash|A0|lenient|f0|T2-001|r1,e1,deepseek-v4-flash,A0,T2-001,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1330,21126,1,0,154.65
+e1|deepseek-v4-flash|A0|lenient|f0|T2-005|r1,e1,deepseek-v4-flash,A0,T2-005,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,987,10787,1,0,82.38
+e1|deepseek-v4-flash|A0|lenient|f0|T2-002|r1,e1,deepseek-v4-flash,A0,T2-002,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1059,24981,1,0,195.33
+e1|deepseek-v4-flash|A0|lenient|f0|T3-006|r1,e1,deepseek-v4-flash,A0,T3-006,T3,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,825,2381,1,0,19.37
+e1|deepseek-v4-flash|A0|lenient|f0|T3-006|r0,e1,deepseek-v4-flash,A0,T3-006,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,825,3470,1,0,26.75
+e1|deepseek-v4-flash|A0|lenient|f0|T3-006|r2,e1,deepseek-v4-flash,A0,T3-006,T3,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,825,3660,1,0,26.86
+e1|deepseek-v4-flash|A0|lenient|f0|T3-005|r0,e1,deepseek-v4-flash,A0,T3-005,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1119,6352,1,0,47.45
+e1|deepseek-v4-flash|A0|lenient|f0|T3-005|r1,e1,deepseek-v4-flash,A0,T3-005,T3,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1119,7061,1,0,53.1
+e1|deepseek-v4-flash|A0|lenient|f0|T3-005|r2,e1,deepseek-v4-flash,A0,T3-005,T3,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1119,8581,1,0,66.11
+e1|deepseek-v4-flash|A0|lenient|f0|T3-008|r0,e1,deepseek-v4-flash,A0,T3-008,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,814,6128,1,0,45.65
+e1|deepseek-v4-flash|A0|lenient|f0|T3-008|r2,e1,deepseek-v4-flash,A0,T3-008,T3,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,814,3837,1,0,28.56
+e1|deepseek-v4-flash|A0|lenient|f0|T3-008|r1,e1,deepseek-v4-flash,A0,T3-008,T3,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,814,6224,1,0,45.85
+e1|deepseek-v4-flash|A0|lenient|f0|T3-007|r0,e1,deepseek-v4-flash,A0,T3-007,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1134,13731,1,0,104.89
+e1|deepseek-v4-flash|A0|lenient|f0|T3-001|r2,e1,deepseek-v4-flash,A0,T3-001,T3,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1062,19065,1,0,146.76
+e1|deepseek-v4-flash|A0|lenient|f0|T3-011|r2,e1,deepseek-v4-flash,A0,T3-011,T3,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1237,6749,1,0,45.31
+e1|deepseek-v4-flash|A0|lenient|f0|T3-011|r1,e1,deepseek-v4-flash,A0,T3-011,T3,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1237,7003,1,0,47.85
+e1|deepseek-v4-flash|A0|lenient|f0|T3-011|r0,e1,deepseek-v4-flash,A0,T3-011,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1237,7812,1,0,55.58
+e1|deepseek-v4-flash|A0|lenient|f0|T3-004|r1,e1,deepseek-v4-flash,A0,T3-004,T3,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,839,18880,1,0,162.41
+e1|deepseek-v4-flash|A0|lenient|f0|T3-004|r0,e1,deepseek-v4-flash,A0,T3-004,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,839,21089,1,0,190.08
+e1|deepseek-v4-flash|A1|lenient|f0|T1-001|r2,e1,deepseek-v4-flash,A1,T1-001,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,16646,3147,5,8,22.2
+e1|deepseek-v4-flash|A1|lenient|f0|T1-001|r1,e1,deepseek-v4-flash,A1,T1-001,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,21593,4674,5,8,39.46
+e1|deepseek-v4-flash|A0|lenient|f0|T3-007|r2,e1,deepseek-v4-flash,A0,T3-007,T3,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1134,19969,1,0,157.51
+e1|deepseek-v4-flash|A0|lenient|f0|T3-007|r1,e1,deepseek-v4-flash,A0,T3-007,T3,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,1134,25441,1,0,200.85
+e1|deepseek-v4-flash|A1|lenient|f0|T1-002|r1,e1,deepseek-v4-flash,A1,T1-002,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,32458,8529,5,8,55.05
+e1|deepseek-v4-flash|A0|lenient|f0|T1-003|r2,e1,deepseek-v4-flash,A0,T1-003,T1,2,False,,format_error,False,False,,,False,0,0,output_limit,1166,32768,1,0,259.72
+e1|deepseek-v4-flash|A0|lenient|f0|T2-003|r1,e1,deepseek-v4-flash,A0,T2-003,T2,1,False,,format_error,False,False,,,False,0,0,output_limit,1102,32768,1,0,245.49
+e1|deepseek-v4-flash|A0|lenient|f0|T2-003|r2,e1,deepseek-v4-flash,A0,T2-003,T2,2,False,,format_error,False,False,,,False,0,0,output_limit,1102,32768,1,0,251.52
+e1|deepseek-v4-flash|A0|lenient|f0|T2-003|r0,e1,deepseek-v4-flash,A0,T2-003,T2,0,False,,format_error,False,False,,,False,0,0,output_limit,1102,32768,1,0,255.81
+e1|deepseek-v4-flash|A0|lenient|f0|T2-002|r2,e1,deepseek-v4-flash,A0,T2-002,T2,2,False,,format_error,False,False,,,False,0,0,output_limit,1059,32768,1,0,264.5
+e2|deepseek-v4-flash|A1|lenient|f0|T4-001|r0,e2,deepseek-v4-flash,A1,T4-001,T4,0,True,infeasible,submitted,False,False,,,False,1,0,ok,22194,2960,6,8,25.3
+e2|deepseek-v4-flash|A1|strict|f0|T1-001|r0,e2,deepseek-v4-flash,A1/strict,T1-001,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,24042,5484,5,8,38.95
+e2|deepseek-v4-flash|A1|lenient|f0|T1-001|r0,e2,deepseek-v4-flash,A1,T1-001,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,17118,3202,5,8,23.25
+e2|deepseek-v4-flash|A1|strict|f0|T3-001|r0,e2,deepseek-v4-flash,A1/strict,T3-001,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,39719,10483,5,8,68.7
+e2|deepseek-v4-flash|A1|strict|f0|T4-001|r0,e2,deepseek-v4-flash,A1/strict,T4-001,T4,0,True,infeasible,submitted,False,False,,,False,1,0,ok,43452,6848,8,11,45.21
+e2|deepseek-v4-flash|A2|lenient|f0|T1-001|r0,e2,deepseek-v4-flash,A2,T1-001,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,26935,6574,5,8,43.63
+e2|deepseek-v4-flash|A2|lenient|f0|T4-001|r0,e2,deepseek-v4-flash,A2,T4-001,T4,0,True,infeasible,submitted,False,False,,,False,0,0,ok,6474,1139,3,5,9.44
+e2|deepseek-v4-flash|A1|strict|f0|T5-001|r0,e2,deepseek-v4-flash,A1/strict,T5-001,T5,0,True,complete,submitted,True,True,0.0,True,False,1,0,ok,44482,10420,7,9,63.08
+e2|deepseek-v4-flash|A2|strict|f0|T1-001|r0,e2,deepseek-v4-flash,A2/strict,T1-001,T1,0,True,complete,submitted,True,False,0.6667,True,False,0,0,ok,22709,3913,6,9,26.55
+e2|deepseek-v4-flash|A1|lenient|f0|T2-001|r0,e2,deepseek-v4-flash,A1,T2-001,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,76122,22082,5,9,143.09
+e2|deepseek-v4-flash|A1|lenient|f0|T5-001|r0,e2,deepseek-v4-flash,A1,T5-001,T5,0,True,complete,submitted,True,True,0.0,True,False,1,0,ok,86260,23738,7,10,154.78
+e2|deepseek-v4-flash|A2|strict|f0|T4-001|r0,e2,deepseek-v4-flash,A2/strict,T4-001,T4,0,True,infeasible,submitted,False,False,,,False,0,0,ok,15682,1486,6,7,14.21
+e2|deepseek-v4-flash|A1|lenient|f0|T3-001|r0,e2,deepseek-v4-flash,A1,T3-001,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,92650,28231,5,8,189.37
+e2|deepseek-v4-flash|A2|lenient|f0|T5-001|r0,e2,deepseek-v4-flash,A2,T5-001,T5,0,True,complete,submitted,True,True,0.0,True,False,1,0,ok,80064,22726,6,9,145.32
+e2|deepseek-v4-flash|A2|strict|f0|T5-001|r0,e2,deepseek-v4-flash,A2/strict,T5-001,T5,0,True,complete,submitted,True,True,0.0,True,False,1,0,ok,50957,12406,7,9,81.84
+e2|deepseek-v4-flash|A1|strict|f0|T2-001|r0,e2,deepseek-v4-flash,A1/strict,T2-001,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,72896,52443,7,8,331.39
+e2|deepseek-v4-flash|A2|strict|f0|T3-001|r0,e2,deepseek-v4-flash,A2/strict,T3-001,T3,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,107174,32416,6,8,195.83
+e2|deepseek-v4-flash|A2|lenient|f0|T2-001|r0,e2,deepseek-v4-flash,A2,T2-001,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,191634,39235,7,11,270.25
+e2|deepseek-v4-flash|A2|lenient|f0|T3-001|r0,e2,deepseek-v4-flash,A2,T3-001,T3,0,False,,stopped,False,False,,,False,0,0,output_limit,5593,65610,3,3,440.41
+e2|deepseek-v4-flash|A2|strict|f0|T2-001|r0,e2,deepseek-v4-flash,A2/strict,T2-001,T2,0,False,,stopped,False,False,,,False,0,0,output_limit,9531,65853,4,5,415.17
+e2|deepseek-v4-flash|A1|lenient|f0|T1-001|r2,e2,deepseek-v4-flash,A1,T1-001,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,18944,3712,5,9,31.87
+e2|deepseek-v4-flash|A1|lenient|f0|T1-005|r2,e2,deepseek-v4-flash,A1,T1-005,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,26681,6741,5,8,42.88
+e2|deepseek-v4-flash|A1|lenient|f0|T1-001|r1,e2,deepseek-v4-flash,A1,T1-001,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,28254,6927,5,8,47.67
+e2|deepseek-v4-flash|A1|lenient|f0|T1-002|r2,e2,deepseek-v4-flash,A1,T1-002,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,33334,8376,5,8,55.8
+e2|deepseek-v4-flash|A1|lenient|f0|T1-006|r0,e2,deepseek-v4-flash,A1,T1-006,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,45005,12320,5,8,79.71
+e2|deepseek-v4-flash|A1|lenient|f0|T1-005|r0,e2,deepseek-v4-flash,A1,T1-005,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,45242,12317,5,8,84.25
+e2|deepseek-v4-flash|A1|lenient|f0|T1-005|r1,e2,deepseek-v4-flash,A1,T1-005,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,56814,16422,5,8,105.34
+e2|deepseek-v4-flash|A1|lenient|f0|T1-006|r1,e2,deepseek-v4-flash,A1,T1-006,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,48944,13539,5,8,91.53
+e2|deepseek-v4-flash|A1|lenient|f0|T1-004|r1,e2,deepseek-v4-flash,A1,T1-004,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,68554,19616,5,8,117.39
+e2|deepseek-v4-flash|A1|lenient|f0|T1-007|r1,e2,deepseek-v4-flash,A1,T1-007,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,44312,11609,5,8,71.09
+e2|deepseek-v4-flash|A1|lenient|f0|T1-008|r1,e2,deepseek-v4-flash,A1,T1-008,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,26912,6211,5,8,40.7
+e2|deepseek-v4-flash|A1|lenient|f0|T1-008|r0,e2,deepseek-v4-flash,A1,T1-008,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,30056,7334,5,8,45.41
+e2|deepseek-v4-flash|A1|lenient|f0|T1-002|r1,e2,deepseek-v4-flash,A1,T1-002,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,65095,18986,5,8,126.51
+e2|deepseek-v4-flash|A1|lenient|f0|T1-009|r0,e2,deepseek-v4-flash,A1,T1-009,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,24585,5521,5,8,34.53
+e2|deepseek-v4-flash|A1|lenient|f0|T1-008|r2,e2,deepseek-v4-flash,A1,T1-008,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,34492,8746,5,8,57.49
+e2|deepseek-v4-flash|A1|lenient|f0|T1-010|r1,e2,deepseek-v4-flash,A1,T1-010,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,26604,6275,5,8,42.07
+e2|deepseek-v4-flash|A1|lenient|f0|T1-007|r0,e2,deepseek-v4-flash,A1,T1-007,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,73128,21340,5,8,141.18
+e2|deepseek-v4-flash|A1|lenient|f0|T1-009|r1,e2,deepseek-v4-flash,A1,T1-009,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,38780,10233,5,8,69.05
+e2|deepseek-v4-flash|A1|lenient|f0|T1-006|r2,e2,deepseek-v4-flash,A1,T1-006,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,79621,23777,5,9,155.89
+e2|deepseek-v4-flash|A1|lenient|f0|T1-011|r0,e2,deepseek-v4-flash,A1,T1-011,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,26387,6122,5,8,39.09
+e2|deepseek-v4-flash|A1|lenient|f0|T1-009|r2,e2,deepseek-v4-flash,A1,T1-009,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,43476,11881,5,8,76.07
+e2|deepseek-v4-flash|A1|lenient|f0|T1-007|r2,e2,deepseek-v4-flash,A1,T1-007,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,77435,22674,5,8,146.51
+e2|deepseek-v4-flash|A1|lenient|f0|T1-010|r0,e2,deepseek-v4-flash,A1,T1-010,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,46308,12871,5,8,84.07
+e2|deepseek-v4-flash|A1|lenient|f0|T1-011|r1,e2,deepseek-v4-flash,A1,T1-011,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,42015,11359,5,8,75.6
+e2|deepseek-v4-flash|A1|lenient|f0|T1-010|r2,e2,deepseek-v4-flash,A1,T1-010,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,63419,18460,5,8,124.13
+e2|deepseek-v4-flash|A1|lenient|f0|T1-011|r2,e2,deepseek-v4-flash,A1,T1-011,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,46873,12824,5,8,87.42
+e2|deepseek-v4-flash|A1|lenient|f0|T1-012|r0,e2,deepseek-v4-flash,A1,T1-012,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,44483,12051,5,8,74.5
+e2|deepseek-v4-flash|A1|lenient|f0|T2-005|r1,e2,deepseek-v4-flash,A1,T2-005,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,22370,4889,5,8,55.19
+e2|deepseek-v4-flash|A1|lenient|f0|T2-007|r1,e2,deepseek-v4-flash,A1,T2-007,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,17707,3353,5,9,26.35
+e2|deepseek-v4-flash|A1|lenient|f0|T2-002|r1,e2,deepseek-v4-flash,A1,T2-002,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,75992,22799,5,8,160.37
+e2|deepseek-v4-flash|A1|lenient|f0|T2-007|r2,e2,deepseek-v4-flash,A1,T2-007,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,14935,4362,4,8,30.75
+e2|deepseek-v4-flash|A1|lenient|f0|T2-006|r1,e2,deepseek-v4-flash,A1,T2-006,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,29503,7358,5,8,75.34
+e2|deepseek-v4-flash|A1|lenient|f0|T2-007|r0,e2,deepseek-v4-flash,A1,T2-007,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,29300,7162,5,9,65.25
+e2|deepseek-v4-flash|A1|lenient|f0|T2-006|r2,e2,deepseek-v4-flash,A1,T2-006,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,37526,10014,5,8,78.24
+e2|deepseek-v4-flash|A1|lenient|f0|T2-011|r0,e2,deepseek-v4-flash,A1,T2-011,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,43300,11679,5,8,73.37
+e2|deepseek-v4-flash|A1|lenient|f0|T2-009|r2,e2,deepseek-v4-flash,A1,T2-009,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,53359,15514,5,8,106.05
+e2|deepseek-v4-flash|A1|lenient|f0|T2-010|r0,e2,deepseek-v4-flash,A1,T2-010,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,53827,15279,5,8,102.37
+e2|deepseek-v4-flash|A1|lenient|f0|T2-009|r1,e2,deepseek-v4-flash,A1,T2-009,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,71356,21471,5,8,148.42
+e2|deepseek-v4-flash|A1|lenient|f0|T2-009|r0,e2,deepseek-v4-flash,A1,T2-009,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,89653,28333,5,8,186.02
+e2|deepseek-v4-flash|A1|lenient|f0|T2-011|r1,e2,deepseek-v4-flash,A1,T2-011,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,47666,13099,5,8,87.74
+e2|deepseek-v4-flash|A1|lenient|f0|T1-004|r2,e2,deepseek-v4-flash,A1,T1-004,T1,2,True,complete,submitted,True,False,0.1429,True,False,0,0,ok,94055,60217,6,9,384.17
+e2|deepseek-v4-flash|A1|lenient|f0|T1-003|r2,e2,deepseek-v4-flash,A1,T1-003,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,62770,49950,6,8,391.72
+e2|deepseek-v4-flash|A1|lenient|f0|T1-002|r0,e2,deepseek-v4-flash,A1,T1-002,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,98152,62060,6,8,406.46
+e2|deepseek-v4-flash|A1|lenient|f0|T1-003|r0,e2,deepseek-v4-flash,A1,T1-003,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,111998,66434,6,9,419.42
+e2|deepseek-v4-flash|A1|lenient|f0|T2-001|r1,e2,deepseek-v4-flash,A1,T2-001,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,78065,54947,6,9,346.42
+e2|deepseek-v4-flash|A1|lenient|f0|T2-001|r2,e2,deepseek-v4-flash,A1,T2-001,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,53200,52417,6,9,343.44
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-001|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-001,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,21723,3380,6,9,26.5
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-005|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-005,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,29803,7100,5,9,45.62
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-001|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-001,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,43930,6791,7,10,48.66
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-001|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-001,T1,0,True,complete,submitted,True,False,0.3333,True,False,0,0,ok,47597,7520,7,10,52.43
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-005|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-005,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,41054,10783,5,8,74.1
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-006|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-006,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,58482,11477,7,10,74.27
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-002|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-002,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,40497,10893,5,8,75.77
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-002|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-002,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,45249,11323,6,10,77.52
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-004|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-004,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,65141,13057,6,10,99.67
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-006|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-006,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,35530,9135,5,8,56.38
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-005|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-005,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,58069,16598,5,8,105.26
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-006|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-006,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,47236,13085,5,8,80.73
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-008|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-008,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,31523,7770,5,9,49.36
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-003|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-003,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,67964,19040,6,9,130.7
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-004|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-004,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,74716,21859,5,8,131.29
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-008|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-008,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,46081,9238,6,9,58.85
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-010|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-010,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,24339,5493,5,8,34.6
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-008|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-008,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,53370,10932,6,10,72.88
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-010|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-010,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,20594,4251,5,8,25.92
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-010|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-010,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,18325,3323,5,9,26.37
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-007|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-007,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,87762,19016,6,9,114.0
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-007|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-007,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,58134,15994,5,9,119.72
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-011|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-011,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,33647,6967,7,11,41.83
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-003|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-003,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,87817,26378,5,8,174.07
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-004|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-004,T1,0,True,complete,submitted,True,False,0.1429,True,False,0,0,ok,79319,23081,5,9,185.31
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-009|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-009,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,51895,14036,6,9,92.32
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-012|r0,e3,deepseek-v4-flash,A1/faults 0.1,T1-012,T1,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,28423,6728,5,8,45.12
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-002|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-002,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,96133,28355,7,10,195.96
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-012|r1,e3,deepseek-v4-flash,A1/faults 0.1,T1-012,T1,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,32269,8048,5,8,51.88
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-009|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-009,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,73507,16230,6,9,109.93
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-011|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-011,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,45928,12635,5,8,78.12
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-012|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-012,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,49423,9998,6,9,77.53
+e3|deepseek-v4-flash|A1|lenient|f0.1|T1-007|r2,e3,deepseek-v4-flash,A1/faults 0.1,T1-007,T1,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,85853,25437,5,8,169.03
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-004|r0,e3,deepseek-v4-flash,A1/faults 0.1,T2-004,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,33734,5361,7,11,38.82
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-001|r1,e3,deepseek-v4-flash,A1/faults 0.1,T2-001,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,100663,29476,6,9,206.45
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-010|r1,e3,deepseek-v4-flash,A1/faults 0.1,T2-010,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,56316,16124,5,8,110.26
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-011|r1,e3,deepseek-v4-flash,A1/faults 0.1,T2-011,T2,1,True,complete,submitted,True,True,0.0,True,False,0,0,ok,98675,22199,6,9,150.63
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-010|r0,e3,deepseek-v4-flash,A1/faults 0.1,T2-010,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,73394,21759,5,8,162.89
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-009|r2,e3,deepseek-v4-flash,A1/faults 0.1,T2-009,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,53986,20887,6,12,192.09
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-011|r2,e3,deepseek-v4-flash,A1/faults 0.1,T2-011,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,108468,32544,6,11,202.04
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-010|r2,e3,deepseek-v4-flash,A1/faults 0.1,T2-010,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,135291,30712,7,11,212.45
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-001|r0,e3,deepseek-v4-flash,A1/faults 0.1,T2-001,T2,0,True,complete,submitted,True,True,0.0,True,False,0,0,ok,95419,60501,6,9,379.97
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-001|r2,e3,deepseek-v4-flash,A1/faults 0.1,T2-001,T2,2,True,complete,submitted,True,True,0.0,True,False,0,0,ok,87230,58023,6,8,371.41
+e3|deepseek-v4-flash|A1|lenient|f0.1|T2-003|r2,e3,deepseek-v4-flash,A1/faults 0.1,T2-003,T2,2,False,,stopped,False,False,,,False,0,0,output_limit,5606,65599,3,3,392.33

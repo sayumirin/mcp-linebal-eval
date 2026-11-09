@@ -1,0 +1,78 @@
+{
+ "instance": "AssemPlanner pressure-reducing valve (Zhang et al. 2026, Table 2)",
+ "stations": 5,
+ "optimal_cycle_time": 240,
+ "status": "optimal",
+ "station_loads": {
+  "1": 240,
+  "2": 226,
+  "3": 205,
+  "4": 237,
+  "5": 227
+ },
+ "station_operations": {
+  "1": [
+   8,
+   9
+  ],
+  "2": [
+   1,
+   10
+  ],
+  "3": [
+   11,
+   12
+  ],
+  "4": [
+   3,
+   4,
+   5
+  ],
+  "5": [
+   2,
+   6,
+   7
+  ]
+ },
+ "line_balancing_rate": 0.9458,
+ "rpw_cycle_time": 249,
+ "reported": {
+  "IGA": {
+   "stations": 6,
+   "cycle_time": 234,
+   "lbr": 0.8084
+  },
+  "DQN": {
+   "stations": 5,
+   "cycle_time": 243,
+   "lbr": 0.9342
+  },
+  "MBO": {
+   "stations": 5,
+   "cycle_time": 247,
+   "lbr": 0.919
+  },
+  "ABC": {
+   "stations": 5,
+   "cycle_time": 247,
+   "lbr": 0.919
+  },
+  "ZOA": {
+   "stations": 5,
+   "cycle_time": 247,
+   "lbr": 0.919
+  },
+  "LineBalanceAgent": {
+   "stations": 5,
+   "cycle_time": 247,
+   "lbr": 0.919
+  },
+  "GPT-4 (w/o reflexion)": {
+   "stations": 5,
+   "cycle_time": 249,
+   "lbr": 0.9116
+  }
+ },
+ "seconds": 0.031,
+ "note": "The paper also applies a tool-change rule without giving its data; it is not modelled."
+}

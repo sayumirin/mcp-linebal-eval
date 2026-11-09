@@ -1,0 +1,27 @@
+# E3 (MVP, small): can the agent recover when 10% of tool calls fail with a transient error?
+# Compare against the fault-free E1 runs of the same tasks (same model, same architecture).
+experiment: e3
+tasks: tasks/mvp.jsonl
+task_types: [T1, T2, T3]
+repeats: 3
+concurrency: 4
+out: results/e3/runs.jsonl
+models:
+  # API id "deepseek-flash" = DeepSeek-V4.1-Flash-1017 per the DeepSeek API docs (checked 2026-11-08).
+  # The API echoes only the alias, so every run log also records its start time.
+  - label: deepseek-v4-flash
+    provider: openai_compat
+    model: deepseek-flash
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+    note: "deepseek-flash, served by DeepSeek-V4.1-Flash-1017 per DeepSeek API docs on 2026-11-08; thinking and reasoning_effort left at API defaults"
+defaults:
+  escalation: lenient
+  temperature: 0.0
+  max_tokens: 32768   # thinking model: reasoning counts towards the output limit; every logged run used this cap
+  max_steps: 50
+  max_rounds: 10
+  transport: inproc
+variants:
+  - {arch: A1, faults: {rate: 0.1, kinds: [transient]}}
+  - {arch: A2, faults: {rate: 0.1, kinds: [transient]}}

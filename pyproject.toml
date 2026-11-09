@@ -1,0 +1,28 @@
+[project]
+name = "linebal"
+version = "0.1.0"
+description = "How reliably do LLM agents balance assembly lines through an MCP server? Exact references, verifier-in-the-loop and escalation tests on SALBP benchmarks."
+authors = [
+    { name = "sayumirin", email = "misaka.umiz@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.9",
+    "mcp==2.3.0",
+    "openai==3.46.0",
+    "ortools==9.15.6755",
+    "pyyaml>=6.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "openpyxl>=3.1",
+    "pytest==9.2.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

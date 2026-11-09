@@ -1,0 +1,28 @@
+# E1: how much does an external verifier raise feasibility and optimality, and at what cost?
+# Direct prompting (A0) vs ReAct (A1) vs ReAct + verifier in the loop (A2) on T1-T3.
+experiment: e1
+tasks: tasks/mvp.jsonl
+task_types: [T1, T2, T3]
+repeats: 3
+concurrency: 4
+out: results/e1/runs.jsonl
+models:
+  # API id "deepseek-flash" = DeepSeek-V4.1-Flash-1017 per the DeepSeek API docs (checked 2026-11-08).
+  # The API echoes only the alias, so every run log also records its start time.
+  - label: deepseek-v4-flash
+    provider: openai_compat
+    model: deepseek-flash
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+    note: "deepseek-flash, served by DeepSeek-V4.1-Flash-1017 per DeepSeek API docs on 2026-11-08; thinking and reasoning_effort left at API defaults"
+defaults:
+  escalation: lenient
+  temperature: 0.0
+  max_tokens: 32768   # thinking model: reasoning counts towards the output limit; every logged run used this cap
+  max_steps: 50
+  max_rounds: 10
+  transport: inproc
+variants:
+  - {arch: A0}
+  - {arch: A1}
+  - {arch: A2}

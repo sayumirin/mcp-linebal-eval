@@ -1,0 +1,22 @@
+# Full pipeline with the scripted fake model: no API key, no benchmark download. Used by CI.
+experiment: ci
+tasks: tasks/ci.jsonl
+repeats: 2
+concurrency: 4
+out: results/ci/runs.jsonl
+models:
+  - label: fake-sloppy
+    provider: fake
+    profile: sloppy
+defaults:
+  escalation: lenient
+  temperature: 0.0
+  max_steps: 30
+  max_rounds: 10
+  transport: inproc
+variants:
+  - {arch: A0}
+  - {arch: A1}
+  - {arch: A2}
+  - {arch: A1, escalation: strict}
+  - {arch: A2, faults: {rate: 0.1, kinds: [transient]}}

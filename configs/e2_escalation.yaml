@@ -1,0 +1,29 @@
+# E2: on infeasible (T4) and underspecified (T5) work orders, does the agent silently submit a
+# balance or does it report the conflict / ask the engineer? Two escalation prompts.
+# T1-T3 are included so that unnecessary escalations can be counted as well.
+experiment: e2
+tasks: tasks/mvp.jsonl
+task_types: [T1, T2, T3, T4, T5]
+repeats: 3
+concurrency: 4
+out: results/e2/runs.jsonl
+models:
+  # API id "deepseek-flash" = DeepSeek-V4.1-Flash-1017 per the DeepSeek API docs (checked 2026-11-08).
+  # The API echoes only the alias, so every run log also records its start time.
+  - label: deepseek-v4-flash
+    provider: openai_compat
+    model: deepseek-flash
+    base_url: https://api.deepseek.com
+    api_key_env: DEEPSEEK_API_KEY
+    note: "deepseek-flash, served by DeepSeek-V4.1-Flash-1017 per DeepSeek API docs on 2026-11-08; thinking and reasoning_effort left at API defaults"
+defaults:
+  temperature: 0.0
+  max_tokens: 32768   # thinking model: reasoning counts towards the output limit; every logged run used this cap
+  max_steps: 50
+  max_rounds: 10
+  transport: inproc
+variants:
+  - {arch: A1, escalation: lenient}
+  - {arch: A1, escalation: strict}
+  - {arch: A2, escalation: lenient}
+  - {arch: A2, escalation: strict}
